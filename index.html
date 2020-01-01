@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Circular Queue</title>
+
+</head>
+<body>
+<div class="center-div">
+<div class="visualization-parent">
+    <h1>Circular Queue Visualization</h1>
+    <div class="button-container">
+        <button id="enqueue" class="enqueue">Enqueue</button>
+        <div class="dequeue-parent">
+            <button id="dequeue" class="dequeue">Dequeue</button>
+            <button  id="oneButton" class="line">1</button>
+            <button  id="twoButton" class="">2</button>
+            <button  id="threeButton" class="">3</button>
+        </div>
+        <button id="fill" class="fill">Fill</button>
+        <button id="clear" class="clear">Clear</button>
+        <button id="reset" class="reset">Reset</button>
+    </div>
+
+    <canvas id="canvasOne" width =592px height=592px></canvas>
+    <canvas id="canvasTwo" width =592px height=592px></canvas>
+    <canvas id="canvasThree" width =592px height=592px></canvas>
+    <p>Line 1</p>
+    <p>Line 2</p>
+    <p>Line 3</p>
+
+
+</div>
+</div>
+<script type="text/javascript" src="circQueue.js"></script>
+</body>
+</html>
